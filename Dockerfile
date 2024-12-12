@@ -16,4 +16,4 @@ RUN ln -s ~/.craftcoin /root/.craftcoin/
 
 EXPOSE 12123
 
-CMD ["craftcoind", "-conf=/root/.craftcoin/craftcoin.conf", "-datadir=/root/.craftcoin", "-printtoconsole", "-reindex"]
+CMD ["craftcoind", "-conf=/root/.craftcoin/craftcoin.conf", "-datadir=/root/.craftcoin", "-printtoconsole"]
